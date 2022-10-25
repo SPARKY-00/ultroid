@@ -8,8 +8,8 @@
         "userbot",
         "python"
     ],
-    "repository": "https://github.com/SPARKY-00/ultroid",
-    "stack": "heroku-22",
+    "repository": "https://github.com/SPARKY-00/Ultroid",
+    "stack": "container",
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
@@ -43,25 +43,5 @@
             "value": "",
             "required": false
         }
-    },
-    "formation": {
-        "ultroid": {
-            "quantity": 1,
-            "size": "free"
-        }
-    },
-      "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
     }
-  ]
 }
