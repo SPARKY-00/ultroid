@@ -1,4 +1,4 @@
-FROM SPARKY-00/ultroid:main
+FROM sparky-00/ultroid:main
 
 # set timezone
 ENV TZ=Asia/Kolkata
