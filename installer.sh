@@ -1,4 +1,4 @@
-EPO="https://github.com/SPARKY-00/Ultroid.git"
+EPO="https://github.com/sparky-00/Ultroid.git"
 DIR="/root/SPARKY-00"
 
 spinner(){
