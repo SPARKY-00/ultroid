@@ -9,7 +9,7 @@
         "python"
     ],
     "repository": "https://github.com/SPARKY-00/ultroid",
-    "stack": "container",
+    "stack": "heroku-22",
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
